@@ -81,6 +81,10 @@ section.imagem {
     -webkit-background-attachment: fixed;
     -moz-background-attachment: fixed;
 
+    -webkit-bacgroung-size: cover;
+    -o-bacgroung-size: cover;
+    -moz-bacgroung-size: cover;
+
     background-size: cover;
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.527);
