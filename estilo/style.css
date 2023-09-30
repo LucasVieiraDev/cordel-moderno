@@ -7,20 +7,17 @@
 :root {
     --font01: Verdana, Geneva, Tahoma, sans-serif; 
     --font02: 'Passion One', cursive;
-    --font03: 'Sriracha', cursive;
-    
+    --font03: 'Sriracha', cursive;    
 }
 
 * {
     margin: 0px;
-    padding: 0px;
-    
+    padding: 0px;   
 }
 
 body {
     min-height: 100vh;
     background-color: darkgray;
-
 }
 
 header {
@@ -39,7 +36,6 @@ header h1 {
 
 header p {
     padding-bottom: 50px;
-
 }
 
 a {
@@ -59,12 +55,7 @@ section {
     padding-left: 30px;
     font-family: var(--font03);
     font-size: 2.5vh;
-    text-align: center;
-    
-}
-
-section p {
-    padding-bottom: 2em;
+    text-align: center; 
 }
 
 section.normal {
@@ -96,13 +87,12 @@ section.imagem {
     background-image: url(../imagens/background002.jpg);
 }
 
-section.imagem > p {
-    
+section.imagem > p {    
     color: white;
-    
+    width: 35vh;
+    padding: 15px 0px;
     background-color: rgba(0, 0, 0, 0.521);
     border-radius: 10px;
-    padding: 5px;
     text-shadow: 1px 1px 0px black;
     z-index: 1;
 }
