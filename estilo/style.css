@@ -58,6 +58,15 @@ section {
     text-align: center; 
 }
 
+section p {
+    padding-bottom: 3em;
+
+}
+
+section.normal p:last-child {
+    padding-bottom: 0;
+}
+
 section.normal {
     background-color: white;
     color: black;
